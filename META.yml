@@ -3,14 +3,14 @@ abstract: "verifies if the OS is supported by Siebel applications\r"
 author:
   - 'Alceu Rodrigues de Freitas Junior <arfreitas@cpan.org>'
 build_requires:
-  Test::Most: 0.25
+  Test::More: 0
   Test::Pod: 1.22
   Test::Pod::Coverage: 1.08
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
 generated_by: 'ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921'
-license: unknown
+license: open_source
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -19,6 +19,5 @@ no_index:
   directory:
     - t
     - inc
-requires:
-  Devel::CheckOS: 1.21
-version: 0.01
+requires: {}
+version: 0.02
