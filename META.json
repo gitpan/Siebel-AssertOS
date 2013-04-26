@@ -1,10 +1,10 @@
 {
-   "abstract" : "verifies if the OS is supported by Siebel applications\r",
+   "abstract" : "verifies if the OS is supported by Siebel applications",
    "author" : [
       "Alceu Rodrigues de Freitas Junior <arfreitas@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "open_source"
    ],
@@ -22,20 +22,22 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0",
+            "Test::More" : 0,
             "Test::Pod" : "1.22",
             "Test::Pod::Coverage" : "1.08"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "ExtUtils::MakeMaker" : 0
          }
       },
       "runtime" : {
-         "requires" : {}
+         "requires" : {
+            "Linux::Distribution" : "0.21"
+         }
       }
    },
    "release_status" : "stable",
-   "version" : "0.02"
+   "version" : "0.03"
 }
