@@ -1,0 +1,46 @@
+2013-04-26 02:45  alceu.freitas.jr
+
+	* lib/Siebel/AssertOS.pm: fixed Pod
+
+2013-04-23 13:08  alceu.freitas.jr
+
+	* Makefile.PL, lib/Siebel/AssertOS.pm: Added usage of
+	  Linux::Distribution to check distributions that supports Siebel
+	  CRM
+
+2013-04-19 13:11  alceu.freitas.jr
+
+	* lib/Siebel/AssertOS.pm: fixed minor bug regarding missing an
+	  argument to die_unsupported sub
+
+2013-03-13 20:13  alceu.freitas.jr
+
+	* ., MANIFEST: removing MANIFEST from source control since a new
+	  one is created by demand
+
+2013-03-13 20:11  alceu.freitas.jr
+
+	* lib/Siebel/AssertOS.pm: minor bug regarding undefined $os
+
+2013-03-13 19:58  alceu.freitas.jr
+
+	* ., Makefile.PL, README, gpl-3.0.txt, lib/Siebel/AssertOS.pm,
+	  t/POD-coverage.t, t/POD.t: added more tests
+	  fixed issue regarding using Devel::AssertOS (now the functions of
+	  it were copied and modified)
+	  added more information about license
+
+2013-03-11 21:32  alceu.freitas.jr
+
+	* ., Makefile.PL: fixed Makefile.PL to run with perl versions equal
+	  or higher than 5.10
+
+2013-03-08 18:26  alceu.freitas.jr
+
+	* ., Changes, MANIFEST, Makefile.PL, README, lib, lib/Siebel,
+	  lib/Siebel/AssertOS.pm, t, t/Siebel-AssertOS.t: removed unwanted
+	  dependencies from Makefile.PL
+	  new distribution Siebel-AssertOS
+	  Siebel-COM now uses Siebel-AssertOS for checking supported
+	  plataforms
+

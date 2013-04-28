@@ -1,5 +1,5 @@
 {
-   "abstract" : "verifies if the OS is supported by Siebel applications",
+   "abstract" : "verifies if the OS is supported by Siebel applications",
    "author" : [
       "Alceu Rodrigues de Freitas Junior <arfreitas@cpan.org>"
    ],
@@ -39,5 +39,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.03"
+   "version" : "0.04"
 }
