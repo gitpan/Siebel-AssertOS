@@ -1,5 +1,5 @@
 ---
-abstract: 'verifies if the OS is supported by Siebel applications'
+abstract: "verifies if the OS is supported by Siebel applications"
 author:
   - 'Alceu Rodrigues de Freitas Junior <arfreitas@cpan.org>'
 build_requires:
@@ -19,6 +19,5 @@ no_index:
   directory:
     - t
     - inc
-requires:
-  Linux::Distribution: 0.21
-version: 0.04
+requires: {}
+version: 0.05
